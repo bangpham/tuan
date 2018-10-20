@@ -1,30 +1,30 @@
-[debug] [2018-10-20T06:17:58.186Z] ----------------------------------------------------------------------
-[debug] [2018-10-20T06:17:58.190Z] Command:       /Users/Bang/.nvm/versions/node/v6.9.1/bin/node /Users/Bang/.nvm/versions/node/v6.9.1/bin/firebase deploy
-[debug] [2018-10-20T06:17:58.190Z] CLI Version:   5.1.1
-[debug] [2018-10-20T06:17:58.191Z] Platform:      darwin
-[debug] [2018-10-20T06:17:58.191Z] Node Version:  v6.9.1
-[debug] [2018-10-20T06:17:58.191Z] Time:          Sat Oct 20 2018 02:17:58 GMT-0400 (EDT)
-[debug] [2018-10-20T06:17:58.191Z] ----------------------------------------------------------------------
+[debug] [2018-10-20T06:24:50.185Z] ----------------------------------------------------------------------
+[debug] [2018-10-20T06:24:50.189Z] Command:       /Users/Bang/.nvm/versions/node/v6.9.1/bin/node /Users/Bang/.nvm/versions/node/v6.9.1/bin/firebase deploy
+[debug] [2018-10-20T06:24:50.190Z] CLI Version:   5.1.1
+[debug] [2018-10-20T06:24:50.190Z] Platform:      darwin
+[debug] [2018-10-20T06:24:50.190Z] Node Version:  v6.9.1
+[debug] [2018-10-20T06:24:50.190Z] Time:          Sat Oct 20 2018 02:24:50 GMT-0400 (EDT)
+[debug] [2018-10-20T06:24:50.191Z] ----------------------------------------------------------------------
 [debug] 
-[debug] [2018-10-20T06:17:58.211Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
-[debug] [2018-10-20T06:17:58.211Z] > authorizing via signed-in user
-[debug] [2018-10-20T06:17:58.211Z] [iam] checking project tuan-c9d43 for permissions ["firebase.projects.get","firebasehosting.sites.update"]
-[debug] [2018-10-20T06:17:58.214Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/tuan-c9d43:testIamPermissions  
+[debug] [2018-10-20T06:24:50.217Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2018-10-20T06:24:50.217Z] > authorizing via signed-in user
+[debug] [2018-10-20T06:24:50.217Z] [iam] checking project tuan-c9d43 for permissions ["firebase.projects.get","firebasehosting.sites.update"]
+[debug] [2018-10-20T06:24:50.220Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/tuan-c9d43:testIamPermissions  
 
-[debug] [2018-10-20T06:17:58.442Z] <<< HTTP RESPONSE 200
-[debug] [2018-10-20T06:17:58.444Z] >>> HTTP REQUEST GET https://firebase.googleapis.com/v1beta1/projects/tuan-c9d43  
+[debug] [2018-10-20T06:24:50.470Z] <<< HTTP RESPONSE 200
+[debug] [2018-10-20T06:24:50.472Z] >>> HTTP REQUEST GET https://firebase.googleapis.com/v1beta1/projects/tuan-c9d43  
  
-[debug] [2018-10-20T06:17:58.618Z] <<< HTTP RESPONSE 200
+[debug] [2018-10-20T06:24:50.685Z] <<< HTTP RESPONSE 200
 [info] 
 [info] === Deploying to 'tuan-c9d43'...
 [info] 
 [info] i  deploying hosting
-[debug] [2018-10-20T06:17:58.625Z] >>> HTTP REQUEST POST https://firebasehosting.googleapis.com/v1beta1/sites/tuan-c9d43/versions  
+[debug] [2018-10-20T06:24:50.694Z] >>> HTTP REQUEST POST https://firebasehosting.googleapis.com/v1beta1/sites/tuan-c9d43/versions  
 
-[debug] [2018-10-20T06:17:59.591Z] <<< HTTP RESPONSE 200
+[debug] [2018-10-20T06:24:51.543Z] <<< HTTP RESPONSE 200
 [info] i  hosting[tuan-c9d43]: beginning deploy...
 [info] i  hosting[tuan-c9d43]: found 5 files in app
-[debug] [2018-10-20T06:17:59.702Z] [hosting] hash cache [YXBw] stored for 5 files
-[debug] [2018-10-20T06:17:59.702Z] [hosting][hash queue][FINAL]
-[debug] [2018-10-20T06:17:59.703Z] >>> HTTP REQUEST POST https://firebasehosting.googleapis.com/v1beta1/sites/tuan-c9d43/versions/7527348bd9be6a1b:populateFiles  
+[debug] [2018-10-20T06:24:51.566Z] [hosting] hash cache [YXBw] stored for 5 files
+[debug] [2018-10-20T06:24:51.566Z] [hosting][hash queue][FINAL]
+[debug] [2018-10-20T06:24:51.566Z] >>> HTTP REQUEST POST https://firebasehosting.googleapis.com/v1beta1/sites/tuan-c9d43/versions/649a68bd0d689e65:populateFiles  
  <request body omitted>

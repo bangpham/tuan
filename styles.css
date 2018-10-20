@@ -35,7 +35,8 @@ left:412px;
 }
 
 .tuan {
-	background-image: url("tuan.png");
+  cursor: url(img/cursor.png), auto;
+  background-image:    url("img/tuan.png");
 	height: 700px;
 	width: 1080px;
 	padding-right: 100px;
