@@ -11,6 +11,10 @@ body { margin:0; } /* Remove body margins */
     position: absolute;
 }
 
+/*.container {
+    width: 100%;
+}*/
+
 .eye {
 top:284px;
 left:412px;
@@ -35,7 +39,7 @@ left:412px;
 }
 
 .tuan {
-	background-image: url("tuan.png");
+	background-image:    url("tuan.png");
 	height: 700px;
 	width: 1080px;
 	padding-right: 100px;
